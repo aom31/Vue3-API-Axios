@@ -1,8 +1,10 @@
 <template>
   <div>
-    <h1 class="text-3xl font-bold underline">Hello world!</h1>
+    <navbar />
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+  import navbar from './components/navbar.vue'
+</script>
 <style lang=""></style>
